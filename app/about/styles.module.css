@@ -1,0 +1,46 @@
+.title {
+  margin: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.image-container {
+  width: 380px;
+  height: 430px;
+  background-color: rgba(45, 125, 125, 0.402);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 350px;
+  height: 400px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-text {
+  width: 450px;
+  text-align: center;
+  margin: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .profile-text {
+    width: 350px;
+  }
+
+  .image-container {
+    width: 350px;
+  }
+
+  .profile-image {
+    width: 320px;
+  }
+}
